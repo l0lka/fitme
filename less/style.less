@@ -1,0 +1,213 @@
+@blue: #5698c9;
+@orange: #e79768;
+@black: #000;
+
+@media (max-width: 800px) {
+    .users{
+        display: none;
+    }
+    .content-side{
+        min-width: 506px;
+        float: right;
+    }
+    .essential{
+        min-width:100%;
+        float: left;
+        clear: left;
+        margin: 20px 0;
+    }
+    .logo{
+        margin: 20px 0;
+    }
+    .contacts{
+        display: none;
+    }
+    .contacts-mobile{
+        display: table;
+    }
+}
+
+@media (max-width: 640px) {
+    .side-bar{
+        display: none;
+    }
+    .essential{
+        clear: both;
+        min-width:100%;
+        margin: 20px 0;
+    }
+    .logo{
+        margin: 20px 0;
+    }
+    .contacts{
+        display: none;
+    }
+    .contacts-mobile{
+        display: table;
+    }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .side-bar{
+        display: none;
+    }
+    .essential{
+        clear: both;
+        min-width:100%;
+        margin: 20px 0;
+    }
+    .logo{
+        margin: 20px 0;
+    }
+    .contacts{
+        display: none;
+    }
+    .contacts-mobile{
+        display: table;
+    }
+
+}
+.side-bar{
+  min-width: 238px;
+}
+.content-side{
+  min-width: 506px;
+}
+body{
+    background-color: #41484d;
+    font-family: 'Myriad pro', Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+.side-list{
+    font-size: 14px;
+    span{
+        color: @orange;
+    }
+    i{
+        font-size: 24px;
+        font-style: normal;
+    }
+    li{
+        margin: 0 0 40px 34px;
+    }
+}
+.content-list{
+    font-size: 13px;
+    li{
+        margin-bottom: 10px;
+    }
+    span{
+        font-size: 18px;
+        color: @blue;
+    }
+}
+.main-container{
+    margin: 5px 20px;
+    background: #FFF;
+    padding-bottom: 100px;
+
+    img{
+        margin-left: 15%;
+    }
+}
+.logo{
+    width: 184px;
+    height: 56px;
+    background: url('../img/sprites.gif') 0 0 no-repeat;
+    margin: 50px 0 0 50px;
+}
+.essential{
+    margin: 50px 0;
+    padding-left: 20px;
+     p{
+        line-height: 30px;
+        font-size: 18px;
+        color: #000;
+        margin: 0px;
+        padding: 0px;
+     
+        span{
+            color: @orange;
+        }
+    }
+}
+h3{
+    font-size: 24px;
+    color: @black;
+    font-weight: normal;
+
+    i{
+        width: 45px;
+        height: 43px;
+        display: table;
+        float: left;
+        margin: -5px 16px 0 0;
+        position: relative;
+    }
+    .point1{
+        background: url('../img/sprites.jpg') 0 0 no-repeat;
+    }
+    .point2{
+        background: url('../img/sprites.jpg') -45px 0 no-repeat;
+    }
+    .point3{
+        background: url('../img/sprites.jpg') -95px 0 no-repeat;
+    }
+}
+h2{
+    font-size: 24px;
+    color: @orange;
+    font-weight: normal;
+}
+.side-bar{
+    .users{
+        background: #e0e0e0;
+        padding: 20px;
+    }
+}
+.fitme-icons{
+    width: 504px;
+    height: 80px;
+    background: url('../img/sprites.gif') 0 -67px no-repeat;
+}
+.contacts{
+    padding: 20px;
+    background: #FFF;
+    h5{
+        font-size: 18px;
+        color: @blue;
+    }
+    p{
+        font-size: 16px;
+        color: @black;
+    }
+}
+.content-side{
+    padding: 0 20px;
+}
+hr{
+    .type1{
+        height: 1px;
+        margin: 0 auto;
+        background: #888;
+    }
+}
+.carousel-inner{
+    img{
+        border: 1px solid #CCC;
+        width: 70%;
+    }
+}
+.carousel-control{
+    line-height: 40px;
+}
+.contacts-mobile{
+    margin: 0;
+
+    p{
+        display: inline;
+    }
+}
+
